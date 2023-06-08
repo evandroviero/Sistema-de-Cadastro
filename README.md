@@ -13,8 +13,10 @@ Requisitos do Sistema
 Certifique-se de ter as seguintes tecnologias instaladas:
 
 Python (versão 3.x)
+
 Django (versão 3.x)
 
 
 Contribuição
+
 Contribuições são bem-vindas! Se você tem sugestões, melhorias ou correções, fique à vontade para abrir uma issue ou enviar um pull request.
