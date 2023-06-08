@@ -1,0 +1,22 @@
+1. abrir o terminal e digitar o comando django-admin startproject "nome do projeto"
+2. Entrar dentro da pasta criada pelo django, no terminal digitar cd "nome do projeto"
+3. no terminal digitar "django-admin startapp app_nome_do_serviço", se recomenda começar sempre com app
+4. Caminho do django
+    ROTA (urls.py)
+    VIEWS.PY (o que fazer quando chegar naquele link)
+    HTML (o que exibir quando chegar naquela página)
+5. entrar dentro do arquivo urls.py, dentro da pasta projeto_cad_usuarios
+6. va em VIEWS e crei funcao que retorne a pagina HTML
+7. dentro da pasta "app" crie um nova pasta chamada "templates", precisa ser exatamente esse nome
+8. por questoes de organizacao criasse subpastas para suas paginas especicificas
+9. cria o arquivo html com mesmo nome que foi adicionada na VIEWS
+10. Para agilizar a criacao do html va no site "https://getbootstrap.com/docs/5.0/getting-started/introduction/" e copie o codigo de Starter template, customize conforme necessidade
+11. Cadastre nosso aplicativo dentro do projeto, va no arquivo settings.py, na lista INSTALLED_APPS adicione nova linha com nome da pasta "app_cad_usuarios"
+12. para rodar o projeto abra o terminal, verifique se esta na pasta com arquivo manager.py
+13. python .\manager.py runserver
+14. Agora podemos estilizar e transformar de fato no projeto
+    a. add navbar
+    b. como foi criado um formulario para enviar informacoes para servidor precisa criar pagina html
+        1. criar rota, arquivo urls.py, arquivo views.py
+        2. arquivo modelos.py criar class com cada coluna que vai receber dados do sistema
+        3. criar novo arquivo html para exibir usuarios
