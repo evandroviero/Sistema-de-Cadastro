@@ -1,4 +1,4 @@
-Sistema de Cadastro usando Django
+Sistema de Cadastro usando Django <br>
 Bem-vindo ao repositório do Sistema de Cadastro utilizando Django! Este projeto tem como objetivo criar um sistema web para cadastro de usuários utilizando o framework Django e a linguagem Python.
 
 Funcionalidades
